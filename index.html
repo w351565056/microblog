@@ -3,8 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <script src="layui/layui.js"></script>
+    <style>
+        .mydata-head{
+            width: 100%;
+            height: 344px;
+            margin-bottom: 20px;
+        }
+        .mydata_left {
+            background-color: red;
+            height: 60px;
+            margin-bottom: 20px;
+        }
+
+        .mydata_right {
+            background-color: #00F7DE;
+            height: 966px;
+        }
+
+        .mydata_below_1 {
+            background-color: #0C0C0C;
+            margin-top: 20px;
+            height: 161px
+        }
+
+        .mydata_below_2 {
+            background-color: #FFB800;
+            height: 112px
+        }
+
+    </style>
 </head>
 <body>
-This is index.
+
+<div class="layui-container">
+    <iframe class="mydata-head" src="myZone.html" frameborder="none" scrolling="none"></iframe>
+    <div class="layui-row layui-col-space20">
+        <div class="layui-col-xs4">
+            <div class="grid-demo grid-demo-bg1 mydata_left">
+                <span class="layui-breadcrumb" lay-separator="|">
+                    <a href="">娱乐</a>
+                    <a href="">八卦</a>
+                    <a href="">体育</a>
+                </span>
+            </div>
+            <div class="grid-demo grid-demo-bg1 mydata_left" style="height: 143px"></div>
+            <div class="grid-demo grid-demo-bg1 mydata_left" style="height: 99px"></div>
+            <div class="grid-demo grid-demo-bg1 mydata_left" style="height: 172px"></div>
+            <div class="grid-demo grid-demo-bg1 mydata_left" style="height: 271px"></div>
+        </div>
+        <div class="layui-col-xs8">
+            <div class="grid-demo mydata_right"></div>
+        </div>
+    </div>
+</div>
+<div class="layui-row mydata_below_1">
+
+</div>
+<div class="layui-row mydata_below_2">
+</div>
 </body>
 </html>
