@@ -1,10 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>关注</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/attention_css.css" rel="stylesheet" type="text/css">
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 
+<!--整体规划 row * 2   -->
+<div class="container">
+  <!--个人背景-->
+  <div class="row">
+    <div class="attention_top">
+      <div class="attention_user">
+        <img src="images/example.jpg" width="180px">
+      </div>
+      <div class="attention_user1">
+        <h1>阿姆斯特朗回旋加速喷气式阿姆斯特朗炮</h1>
+      </div>
+    </div>
+  </div>
+  <!--信息栏-->
+  <div class="row">
+    <!--左-->
+    <div class="col-md-2">
+      <div class="list-group">
+        <a href="attention.html" class="list-group-item active">关注<span class="badge" style="float: right">20</span></a>
+        <a href="#" class="list-group-item">特别关注<span class="badge" style="float: right">1</span></a>
+        <a href="#" class="list-group-item">好友圈<span class="badge" style="float: right">20</span></a>
+        <a href="#" class="list-group-item">兴趣主页<span class="badge" style="float: right">20</span></a>
+        <a href="#" class="list-group-item">未分组<span class="badge" style="float: right">20</span></a>
+        <a href="#" class="list-group-item">已分组<span class="badge" style="float: right">20</span></a>
+      </div>
+      <div class="list-group">
+        <a href="#" class="list-group-item active">群<span class="badge" style="float: right">99+</span></a>
+      </div>
+      <div class="list-group">
+        <a href="fans.html" class="list-group-item active">粉丝<span class="badge" style="float: right">20</span></a>
+      </div>
+      <div class="list-group">
+        <a href="#" class="list-group-item active">黑名单<span class="badge" style="float: right">0</span></a>
+      </div>
+    </div>
+    <!--右-->
+    <div class="col-md-10">
+      <div class="container">
+        <!--下拉列表 + 搜索框-->
+        <div class="row">
+          <div class="col-md-5">
+            <h2>全部粉丝</h2>
+          </div>
+          <!--搜索-->
+          <div class="col-md-7">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="查找您的粉丝">
+              <span class="input-group-btn">
+            <button class="btn btn-default" type="button">搜</button>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <table class="table table-striped table-hover">
+          <thead>
+          <tr>
+            <th><a>头像</a></th>
+            <th><a>用户ID</a></th>
+            <th><a>用户名</a></th>
+            <th><a>手机号码</a></th>
+            <th><a>真实姓名</a></th>
+            <th><a>性别</a></th>
+            <th><a>邮箱</a></th>
+            <th><a>已关注</a></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th><img src="images/example.jpg" width="60px"></th>
+            <th><a>用户ID</a></th>
+            <th><a>用户名</a></th>
+            <th><a>手机号码</a></th>
+            <th><a>真实姓名</a></th>
+            <th><a>性别</a></th>
+            <th><a>邮箱</a></th>
+            <th><a>已关注</a></th>
+          </tr>
+          <tr>
+            <th><img src="images/example.jpg" width="60px"></th>
+            <th><a>用户ID</a></th>
+            <th><a>用户名</a></th>
+            <th><a>手机号码</a></th>
+            <th><a>真实姓名</a></th>
+            <th><a>性别</a></th>
+            <th><a>邮箱</a></th>
+            <th><a>已关注</a></th>
+          </tr>
+          <tr>
+            <th><img src="images/example.jpg" width="60px"></th>
+            <th><a>用户ID</a></th>
+            <th><a>用户名</a></th>
+            <th><a>手机号码</a></th>
+            <th><a>真实姓名</a></th>
+            <th><a>性别</a></th>
+            <th><a>邮箱</a></th>
+            <th><a>已关注</a></th>
+          </tr>
+          <tr>
+            <th><img src="images/example.jpg" width="60px"></th>
+            <th><a>用户ID</a></th>
+            <th><a>用户名</a></th>
+            <th><a>手机号码</a></th>
+            <th><a>真实姓名</a></th>
+            <th><a>性别</a></th>
+            <th><a>邮箱</a></th>
+            <th><a>已关注</a></th>
+          </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+  <!--<div class="row">-->
+    <!--<a href="attention.html" target="iframee">sssss</a>-->
+    <!--<iframe name="iframee" width="1000px" scrolling="no" frameborder="1px"></iframe>-->
+  <!--</div>-->
+</div>
+<!--test-->
+</div>
+
+
+<!--大背景-->
+<!--<div class="row">-->
+<!--&lt;!&ndash;左侧栏&ndash;&gt;-->
+<!--<div class="col-md-2">-->
+<!--<div class="list-group">-->
+<!--<a href="#" class="list-group-item active">关注</a>-->
+<!--<a href="#" class="list-group-item">特别关注</a>-->
+<!--<a href="#" class="list-group-item">好友圈</a>-->
+<!--<a href="#" class="list-group-item">兴趣主页</a>-->
+<!--<a href="#" class="list-group-item">未分组</a>-->
+<!--<a href="#" class="list-group-item">已分组</a>-->
+<!--</div>-->
+<!--<div class="list-group">-->
+<!--<a href="#" class="list-group-item active">群</a>-->
+<!--</div>-->
+<!--<div class="list-group">-->
+<!--<a href="#" class="list-group-item active">粉丝</a>-->
+<!--</div>-->
+<!--<div class="list-group">-->
+<!--<a href="#" class="list-group-item active">黑名单</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--&lt;!&ndash;展示栏&ndash;&gt;-->
+<!--<div class="col-md-5">-->
+
+<!--<a>全部关注</a>-->
+
+
+<!--&lt;!&ndash;搜索&ndash;&gt;-->
+<!--<div class="col-lg-6">-->
+<!--<div class="input-group">-->
+<!--<input type="text" class="form-control" placeholder="Search for...">-->
+<!--<span class="input-group-btn">-->
+<!--<button class="btn btn-default" type="button">Go!</button>-->
+<!--</span>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="attention_bg">-->
+<!--<div class="attention_top"></div>-->
+<!--<div class="attention_list">-->
+<!--<div class="list-group">-->
+<!--<a href="#" class="list-group-item active">关注</a>-->
+<!--<a href="#" class="list-group-item">特别关注</a>-->
+<!--<a href="#" class="list-group-item">好友圈</a>-->
+<!--<a href="#" class="list-group-item">兴趣主页</a>-->
+<!--<a href="#" class="list-group-item">未分组</a>-->
+<!--<a href="#" class="list-group-item">已分组</a>-->
+<!--</div>-->
+<!--<div class="list-group">-->
+<!--<a href="#" class="list-group-item active">群</a>-->
+<!--</div>-->
+<!--<div class="list-group">-->
+<!--<a href="#" class="list-group-item active">粉丝</a>-->
+<!--</div>-->
+<!--<div class="list-group">-->
+<!--<a href="#" class="list-group-item active">黑名单</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="attention_all">-->
+<!--<div class="">-->
+<!--<div class=""><a class="attention_all_a">全部关注</a></div>-->
+<!--&lt;!&ndash;搜索框&ndash;&gt;-->
+<!--<div class="attention_all_q">-->
+<!--<div  class="col-md-9">-->
+<!--<div class="input-group">-->
+<!--<input type="text" class="form-control" placeholder="请输入用户名">-->
+<!--<span class="input-group-btn">-->
+<!--<button class="btn btn-default" type="button">搜</button>-->
+<!--</span>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div>-->
+<!--<table class="table-striped table-hover">-->
+<!--<thead>-->
+<!--<tr>-->
+<!--<th><a>头像</a></th>-->
+<!--<th><a>用户ID</a></th>-->
+<!--<th><a>用户名</a></th>-->
+<!--<th><a>手机号码</a></th>-->
+<!--<th><a>真实姓名</a></th>-->
+<!--<th><a>性别</a></th>-->
+<!--<th><a>邮箱</a></th>-->
+<!--<th><a>已关注</a></th>-->
+<!--</tr>-->
+<!--</thead>-->
+<!--<tbody>-->
+<!--<tr>-->
+<!--<th><img src="images/example.jpg" width="60px"></th>-->
+<!--<th><a>用户ID</a></th>-->
+<!--<th><a>用户名</a></th>-->
+<!--<th><a>手机号码</a></th>-->
+<!--<th><a>真实姓名</a></th>-->
+<!--<th><a>性别</a></th>-->
+<!--<th><a>邮箱</a></th>-->
+<!--<th><a>已关注</a></th>-->
+<!--</tr>-->
+<!--<tr>-->
+<!--<th><img src="images/example.jpg" width="60px"></th>-->
+<!--<th><a>用户ID</a></th>-->
+<!--<th><a>用户名</a></th>-->
+<!--<th><a>手机号码</a></th>-->
+<!--<th><a>真实姓名</a></th>-->
+<!--<th><a>性别</a></th>-->
+<!--<th><a>邮箱</a></th>-->
+<!--<th><a>已关注</a></th>-->
+<!--</tr>-->
+<!--<tr>-->
+<!--<th><img src="images/example.jpg" width="60px"></th>-->
+<!--<th><a>用户ID</a></th>-->
+<!--<th><a>用户名</a></th>-->
+<!--<th><a>手机号码</a></th>-->
+<!--<th><a>真实姓名</a></th>-->
+<!--<th><a>性别</a></th>-->
+<!--<th><a>邮箱</a></th>-->
+<!--<th><a>已关注</a></th>-->
+<!--</tr>-->
+<!--</tbody>-->
+<!--</table>-->
+
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 </body>
 </html>

@@ -1,0 +1,57 @@
+body{
+
+}
+.attention_bg{
+  position: relative;
+  left: 10%;
+  width: 1000px;
+  background-color: #80bdff;
+}
+.attention_top{
+  width: 1140px;
+  height: 500px;
+  background-image: url(../images/示例背景.jpg);
+  background-size: cover;
+  filter: basicImage(10px);
+  border: #f2f2f2 20px solid;
+  z-index: -1;
+}
+.attention_user{
+  position: relative;
+  left: 40%;
+  top: 20%;
+}
+.attention_user1{
+  position: relative;
+  top: 25%;
+  color: white;
+  text-align: center;
+}
+.attention_list{
+  width: 300px;
+  float: left;
+
+}
+/*展示栏*/
+.attention_all{
+  width: 663px;
+  background-color: aquamarine;
+  float: right;
+}
+.attention_all_q{
+  float: right;
+}
+.attention_little{
+  width: 290px;
+  height: 130px;
+  background-color: #f2f2f5;
+  float: left;
+}
+.attention_img{
+  width:70px;
+  height: 100px;
+  position: relative;
+  top: 15px;
+  box-shadow: #1b1e21 1px 0px 0px 0px;
+  border-radius: 50% 50% ;
+}
