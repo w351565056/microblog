@@ -11,7 +11,16 @@
     font-size:16px;font-style:normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;}
+    -moz-osx-font-smoothing: grayscale;
+}
+a{
+    text-decoration:none;
+}
+body{
+    background-image: url("../images/timg.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
 #myZone{
     width: 1000px;
     padding-top: 50px;
@@ -22,8 +31,9 @@
 }
 .myZone_footer{
     width: 1000px;
-    height: 273px;
-    background: #93D1FF;
+    height: 112px;
+    background: #f2f2f5;
+    margin: auto;
 }
 .myZone_content_blog{
     width: 940px;
@@ -36,37 +46,34 @@
 .myZone_content_blog_body{
     width: 940px;
     height: 1000px;
-    background: cornsilk;
 }
 .myZone_content_blog_head_shadow{
     width: 920px;
     height: 300px;
-    background-image: url("/.");
-    background-repeat: no-repeat;
+    background-image: url("../images/backgroundimg.png");
     background-size: cover;
 }
 .myZone_content_blog_head_nav{
     width: 920px;
     height: 40px;
-    background: #e231a9;
+    background: white;
 }
 .myZone_content_blog_body_left{
     width: 300px;
     height: 443px;
-    background: #27e268;
     margin-right: 20px;
     float: left;
 }
 .myZone_content_blog_body_middle{
     width: 600px;
     height: 1000px;
-    background: #1b67e2;
+    border-radius: 5px;
     float: left;
 }
 .myZone_content_blog_body_right{
     width: 20px;
     height: 1000px;
-    background: #da22e2;
+
     float: left;
 }
 .myZone_content_blog_head_shadow_personal_photo{
@@ -79,7 +86,7 @@
 }
 .myZone_content_blog_head_shadow_personal_photo img{
     border-radius: 50px;
-    box-shadow: #da22e2 0px 0px 5px 5px;
+    box-shadow: #93D1FF 0px 0px 5px 5px;
 }
 .myZone_content_blog_head_shadow_username{
     width: 920px;
@@ -88,7 +95,6 @@
     position: relative;
     top: 60px;
     font-size: 25px;
-    color: white;
 }
 .myZone_content_blog_head_shadow_personal_intro{
     width: 920px;
@@ -96,7 +102,6 @@
     text-align: center;
     position: relative;
     top: 90px;
-    color: white;
 }
 .iconfont{
     width: 16px;
@@ -114,4 +119,160 @@
     font-size: 16px;
 
     text-align: center;
+}
+.my_info{
+    width: 300px;
+    height: 60px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background: white;
+}
+.my_info td{
+    width: 100px;
+    height: 34px;
+}
+.my_info span{
+    width: auto;
+    height: 16px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+#border{
+    border-left: 1px;
+    border-left: solid;
+    border-right: 1px;
+    border-right: solid;
+
+}
+#person_info{
+    position: relative;
+    top: 25px;
+    width: 300px;
+    height: 156px;
+    border-radius: 5px;
+    background: white;
+}
+#verify{
+    width: 300px;
+    height: 61px;
+    border-bottom: #9F9F9F 1px solid;
+    border-radius: 5px;
+}
+#info_done{
+    width: 300px;
+    height: 57px;
+    line-height: 45px;
+    border-bottom: #9F9F9F 1px solid;
+}
+#edit_info{
+    width: 300px;
+    height: 36px;
+}
+#edit_info{
+    text-align: center;
+    line-height: 35px;
+}
+#verify div{
+    position: relative;
+    top: 10px;
+    margin: auto;
+    text-align: center;
+}
+#ver_lev{
+    background: gold;
+    border-radius: 15px;
+    width: 40px;
+}
+#info_done_text{
+    width: 268px;
+    height: 23px;
+    margin: auto;
+    text-align: center;
+}
+#info_done_text span{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+#myZone_fav{
+    position: relative;
+    top: 50px;
+    width: 300px;
+    height: 179px;
+    background: white;
+    border-radius: 5px;
+}
+#myZone_fav_title{
+    width: 300px;
+    height: 39px;
+    line-height: 35px;
+    border-bottom: #9F9F9F 1px solid;
+}
+#myZone_fav_con{
+    width: 300px;
+    height: 104px;
+    border-bottom: #9F9F9F 1px solid;
+    text-align: center;
+}
+#myZone_fav_more{
+    width: 300px;
+    height: 36px;
+    text-align: center;
+    line-height: 35px;
+}
+#myZone_search{
+    width: 600px;
+    height: 38px;
+    border-radius: 5px;
+    background: white;
+}
+#myZone_all_blog{
+    width: 90px;
+    height: 38px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+}
+#myZone_more_blog{
+    width: 90px;
+    height: 38px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+}
+#myZone_search_blog input{
+    width: 178px;
+    height: 28px;
+    float: right;
+    border: 1px solid #9F9F9F;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+#myZone_blog_content{
+    width: 600px;
+    height: 900px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: white;
+}
+#myZone_blog_content iframe{
+    width: 600px;
+    height: 900px;
+    border-radius: 5px;
+    border: 0px;
+}
+.myZone_content_blog_body_right ul{
+    position: fixed;
+    top: 200px;
+    right: 200px;
+}
+.myZone_content_blog_body_right ul li{
+    list-style-type: none;
+    margin-top: 20px;
+    color: #2D93CA;
+}
+.myZone_footer p{
+    text-align: center;
+    font-size: 14px;
 }
