@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 786622 */
+    src: url('//at.alicdn.com/t/font_786622_yy7f84ixmy.eot');
+    src: url('//at.alicdn.com/t/font_786622_yy7f84ixmy.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_786622_yy7f84ixmy.woff') format('woff'),
+    url('//at.alicdn.com/t/font_786622_yy7f84ixmy.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_786622_yy7f84ixmy.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+#myZone{
+    width: 1000px;
+    padding-top: 50px;
+    margin: auto;
+}
+.myZone_content{
+    width: 940px;
+}
+.myZone_footer{
+    width: 1000px;
+    height: 273px;
+    background: #93D1FF;
+}
+.myZone_content_blog{
+    width: 940px;
+    height: 1356px;
+}
+.myZone_content_blog_head{
+    width: 940px;
+    height: 356px;
+}
+.myZone_content_blog_body{
+    width: 940px;
+    height: 1000px;
+    background: cornsilk;
+}
+.myZone_content_blog_head_shadow{
+    width: 920px;
+    height: 300px;
+    background-image: url("/.");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.myZone_content_blog_head_nav{
+    width: 920px;
+    height: 40px;
+    background: #e231a9;
+}
+.myZone_content_blog_body_left{
+    width: 300px;
+    height: 443px;
+    background: #27e268;
+    margin-right: 20px;
+    float: left;
+}
+.myZone_content_blog_body_middle{
+    width: 600px;
+    height: 1000px;
+    background: #1b67e2;
+    float: left;
+}
+.myZone_content_blog_body_right{
+    width: 20px;
+    height: 1000px;
+    background: #da22e2;
+    float: left;
+}
+.myZone_content_blog_head_shadow_personal_photo{
+    position: relative;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    margin: auto;
+}
+.myZone_content_blog_head_shadow_personal_photo img{
+    border-radius: 50px;
+    box-shadow: #da22e2 0px 0px 5px 5px;
+}
+.myZone_content_blog_head_shadow_username{
+    width: 920px;
+    height: 28px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 25px;
+    color: white;
+}
+.myZone_content_blog_head_shadow_personal_intro{
+    width: 920px;
+    height: 28px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    color: white;
+}
+.iconfont{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+.myZone_content_blog_head_nav_wrap{
+    margin: auto;
+    width: 552px;
+    height: 40px;
+}
+.myZone_content_blog_head_nav_wrap td{
+    width: 184px;
+    height: 40px;
+    font-size: 16px;
+
+    text-align: center;
+}
